@@ -1,0 +1,146 @@
+.blogPage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    aside {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        position: relative;
+        .asideImage {
+            width: 100%;
+            z-index: 1;
+            img {
+                max-width: 100%;
+            }
+        }
+        .asideText {
+            background-color: $midBlue;
+            box-shadow: 0px 0px 0px 17px $midBlue;
+            padding-top: 378px;
+            position: absolute;
+            right: 2px;
+            top: 59px;
+        }
+        .asideWrapper {
+            width: 75%;
+        }
+    }
+    section.newActivities {
+        width: 61.5%;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        .newActivitiesImage {
+            max-width: 100%;
+            img {
+                box-shadow: -15px 15px 0px 0px $aqua;
+                max-width: 100%;
+            }
+        }
+        .newActivitiesText {
+            width: 100%;
+            margin-left: -13.5px;
+            padding-left: 10%;
+            padding-right: 10%;
+            border-left: 5px solid $aqua;
+            border-bottom: 5px solid $aqua;
+
+            .blogSectionWrapper {
+                padding: 10% 0;
+                p {
+                    margin-bottom: 3%;
+                }
+            }
+        }
+    }
+}
+
+// Comments Section Styles
+
+div.blogPageBottom {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 42.2%;
+    padding: 3% 7% 5% 0;
+    
+    .comment1 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5%;
+
+        .comment1Pic {
+            width: 10%;
+        }
+        .comment1Text {
+            width: 85%;
+        }
+    }
+
+    .comment2 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5%;
+
+        .comment2Pic {
+            width: 10%;
+        }
+        .comment2Text {
+            width: 85%;
+        }
+    }
+}
+
+.comment1Text,
+.comment2Text {
+    .commentHeading {
+        font-weight: bold;
+        font-size: 30px;
+    }
+}
+
+
+// Contact Form Section Styles
+div.contactForm {
+    margin-top: 5%;
+}
+
+.contactUserInput {
+    display: flex;
+    justify-content: space-between;
+    label {
+        visibility: hidden;
+    }
+    input {
+        width: 45%;
+        height: 50px;
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid $aqua;
+        margin-bottom: 20px;
+        padding-left: 10px;
+    }
+}
+
+.message {
+    input {
+        width: 100%;
+        height: 200px;
+        background-color: transparent;
+        border: 1px solid $aqua;
+        padding-bottom: 147px;
+        padding-left: 10px;
+    }
+    textarea {
+        width: 100%;
+        background-color: transparent;
+        border: 1px solid $aqua;
+        padding: 10px;
+    }
+}
+
+.contactForm button {
+    width: 100%;
+}

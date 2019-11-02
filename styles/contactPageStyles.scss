@@ -1,0 +1,32 @@
+.contact {
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        .contactInfo {
+            width: 30%;
+            padding-top: 7%;
+            .icons {
+                font-size: 25px;
+                color: $paleGrey;
+                i {
+                    margin-right: 5%;
+                    padding-bottom: 2%;
+                }
+                i:hover {
+                    border-bottom: 1px solid $aqua;
+                }
+            }
+            .email {
+                padding: 5% 0 10%;
+            }
+        }
+        .contactForm {
+            width: 60%;
+            padding: 5%;
+            background-color: $midBlue;
+            box-shadow: 20px 20px 0 0 $aqua;
+            position: relative;
+            top:-120px;
+        }
+    }
+}

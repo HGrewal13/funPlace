@@ -1,0 +1,297 @@
+@media(max-width:1220px) {
+    header.homeHeader {
+        background-size: cover;
+        background-position: fixed;
+    }
+    .programsMaterial {
+        .ourPrograms {
+            width: 70%;
+            margin-left: 30%;
+        }
+        .newLocations {
+            order: 4;
+            width: 70%;
+            margin-left: 30%;
+        }
+        .programsPic2 {
+            margin-top: 2%;
+            margin-bottom: 4%;
+            img {
+                top: 0;
+                box-shadow: 25px 28px 0px 0px $aqua;
+            }
+        }
+    }
+    .events {
+        .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            .eventsPic {
+                width: 40%;
+            }
+            .eventsText {
+                width: 80%;
+                margin-left: 20%;
+                margin-top: 2%;
+            }
+        }
+    }
+}
+
+@media(max-width:1000px) {
+    .homeHeader {
+        .headerMaterial {
+            .headerPic {
+                top: 150px;
+            }
+        }
+    }
+    .info {
+        padding-top: 15%;
+        .wrapper {
+            flex-direction: column;
+            .newSpace,
+            .community,
+            .blog,
+            .getInTouch {
+                width: 60%;
+                margin: 0 auto 5%;
+                h3 {
+                    font-size: 6vw;
+                }
+            }
+        }
+    }
+
+    .programsMaterial {
+        .programsPic1 {
+            width: 60%;
+            margin: 0 auto;
+            img {
+                top: 0;
+            }
+        }
+        .ourPrograms {
+            width: 70%;
+            margin-left: 0;
+            margin: 2.5% auto;
+            text-align: center;
+            h4,
+            p,
+            button {
+                margin-left: 0;
+            }
+        }
+        .newLocations {
+            order: 4;
+            width: 70%;
+            margin: 0 auto;
+            margin-top: 2.5%;
+            margin-bottom: 2.5%;
+            text-align: center;
+            h4,
+            p,
+            button {
+                margin-right: 0;
+            }
+        }
+        .programsPic2 {
+            margin-top: 2%;
+            margin-bottom: 5%;
+            width: 60%;
+            margin: 0 auto;
+            img {
+                top: 0;
+                box-shadow: 25px 28px 0px 0px $aqua;
+            }
+        }
+    }
+
+    .events {
+        .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            .eventsPic {
+                width: 50%;
+                margin: 0 auto;
+                img {
+                    top: 0;
+                }
+            }
+            .eventsText {
+                text-align: center;
+                width: 70%;
+                margin: 0 auto;
+                margin-top: 4.5%;
+            }
+        }
+    }
+    .gallery {
+        .wrapper {
+            flex-direction: column;
+            align-items: center;
+            .galleryImage {
+                width: 50%;
+                margin-bottom: 2%;
+            }
+        }
+    }
+}
+
+@media(max-width:960px) {
+    .homeHeader {
+        .headerMaterial {
+            .headerPic {
+                top: 100px;
+            }
+        }
+    }
+}
+
+@media(max-width:850px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    .programsMaterial {
+        .ourPrograms,
+        .newLocations {
+            width: 90%;
+        }
+    }
+
+    .events {
+        .wrapper {
+            .eventsText {
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media(max-width:720px) {
+    .homeHeader {
+        .headerMaterial {
+            flex-direction: column;
+            align-items: center;
+            .headingDiv {
+                width: 60%;
+                margin-left: 0%;
+                h1.funPlaceHeading {
+                    font-size: 12vw;
+                }
+            }
+            .headerPic {
+                top:75px;
+            }
+        }
+    }
+    .newSpace {
+        p {
+            padding-left: calc(77px + 4.9%);
+        }
+    }
+
+    .community {
+        p {
+        padding-left: calc(89px + 3.6%);
+        }
+    }
+
+    .info,
+    .programs,
+    .roadTrips,
+    .events {
+        .wrapper {
+        h3 {
+            font-size: 35px;
+        }
+    }
+
+        p {
+            font-size: 17px;
+        }
+    }
+
+    .programs {
+        h4 {
+            font-size: 35px;
+        }
+    }
+
+    .gallery {
+        .wrapper {
+            .galleryImage {
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media(max-width:600px) {
+    .homeHeader {
+        .headerMaterial {
+            .headingDiv {
+                width: 55%;
+            }
+            .headerPic {
+                top:0;
+                width: 90%;
+            }
+        }
+    }
+
+    .info {
+        .wrapper {
+            .newSpace,
+            .community,
+            .blog,
+            .getInTouch {
+                width: 90%;
+            }
+        }
+    }
+
+    .programsMaterial {
+        .programsPic1 {
+            width: 90%;
+            img {
+                margin-top: 2%;
+                box-shadow: none;
+            }
+        }
+        .programsPic2 {
+            width: 90%;
+            img {
+                margin-top: 2%;
+                box-shadow: none;
+            }
+        }
+    }
+
+    .events {
+        .wrapper {
+            .eventsPic {
+                width: 60%;
+                img {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:450px) {
+    .info {
+        .wrapper {
+            .newSpace,
+            .community,
+            .blog,
+            .getInTouch {
+                p {
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}

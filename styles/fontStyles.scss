@@ -1,0 +1,64 @@
+nav {
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    color: $paleGrey;
+}
+
+h2 {
+    font-family: 'walter turncoat';
+    font-size: 75px;
+    line-height: 99.8px;
+    color: $paleGrey;
+}
+
+h3 {
+    font-family: 'walter turncoat';
+    font-size: 45px;
+    line-height: 99.8px;
+    color: $paleGrey;
+}
+
+h4 {
+    font-family: 'walter turncoat';
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: 1.3px;
+    color: $paleGrey;
+}
+
+p {
+    font-family: 'roboto';
+    font-size: 20px;
+    line-height: 28px;
+    color: $paleGrey;
+}
+
+button {
+    font-family: 'walter turncoat';
+    font-size: 25.4px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 41.6px;
+    color: $midBlue;
+}
+
+.recentPosts ul {
+    list-style-position: inside;
+    li {
+        font-family: 'roboto';
+        font-size: 20px;
+        line-height: 28px;
+        color: $paleGrey;
+    }
+}
+
+textarea {
+    color: $paleGrey;
+}
+
+::placeholder {
+    color: $paleGrey;
+}

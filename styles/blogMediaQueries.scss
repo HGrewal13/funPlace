@@ -1,0 +1,195 @@
+@media(max-width:1250px) {
+    .blogPage {
+        h4 {
+            font-size: 32px;
+        }
+        aside {
+            width: 100%;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 5% 0;
+            .asideImage {
+                width: 40%;
+            }
+            .asideText {
+                padding: 0 2%;
+                position: relative;
+                top: 20px;
+            }
+        }
+        section.newActivities {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .blogPageBottom {
+            width: 100%;
+            margin-left: 10%;
+        }
+    }
+}
+
+@media(max-width:1050px) {
+    .blogPage {
+        aside {
+            flex-direction: column;
+            align-items: center;
+            .asideImage {
+                margin-bottom: 3%;
+                width: 65%;
+                img {
+                    max-width: 100%;
+                    min-width: 100%;
+                }
+            }
+            .asideText {
+                width: 100%;
+                margin-bottom: 3%;
+                .ourMission {
+                    text-align: center;
+                }
+                .recentPosts {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 3%;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:980px) {
+    .blogPage {
+        h2 {
+            font-size: 50px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+}
+
+@media(max-width:850px) {
+    .blogPage {
+        section.newActivities {
+            width: 90%;
+        }
+        .blogPageBottom {
+            margin-left: 3.5%;
+            padding-right: 5%;
+        }
+    }
+}
+
+@media(max-width:720px) {
+    .blogPage {
+        section.newActivities {
+            width: 100%;
+            .newActivitiesText {
+                padding: 0 5%;
+            }
+        }
+    }
+    .contactUserInput {
+        flex-direction: column;
+        input {
+            width: 100%;
+        }
+    }
+    .blogHeader {
+        .headerMaterial {
+            margin: 0 auto;
+            padding-top: 20%;
+            .blogHeading {
+                font-size: 100px;
+            }
+        }
+    }
+    .blogPageBottom {
+        h2 {
+            font-size: 40px;
+        }
+        .comment1,
+        .comment2 {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            p {
+                font-size: 16px;
+            }
+            .commentPic {
+                width: 25%;
+                img {
+                    max-width: 100%;
+                    min-width: 100%;
+                }
+            }
+            .commentHeading {
+                font-size: 20px;
+            }
+        }
+    }
+    div.blogPageBottom {
+        .comment1 {
+            .comment1Pic {
+                width: 20%;
+                img {
+                    max-width: 100%;
+                    min-width: 100%;
+                }
+            }
+        }
+        .comment2 {
+            .comment2Pic {
+                width: 20%;
+                img {
+                    max-width: 100%;
+                    min-width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:475px) {
+    .blogPage {
+        section.newActivities {
+            .newActivitiesText {
+                margin-left: 0%;
+                border: none;
+            }
+        }
+    }
+    .blogPage {
+        h2 {
+            font-size: 37px;
+        }
+    }
+
+    div.blogPageBottom {
+        .comment1 {
+            .comment1Pic {
+                width: 32%;
+                img {
+                    max-width: 100%;
+                    min-width: 100%;
+                }
+            }
+            .comment1Text {
+                width: 100%;
+            }
+        }
+        .comment2 {
+            .comment2Pic {
+                width: 32%;
+                img {
+                    max-width: 100%;
+                    min-width: 100%;
+                }
+            }
+            .comment2Text {
+                width: 100%;
+            }
+        }
+    }
+}

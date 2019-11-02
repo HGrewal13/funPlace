@@ -1,0 +1,29 @@
+.events {
+    padding: 10% 0;
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        .eventsPic {
+            width: 27.5%;
+            img {
+                width: 100%;
+                position: relative;
+                top: -15px;
+                left: 15px;
+                box-shadow: -15px 18px 0px 0px $aqua;
+            }
+        }
+        .eventsText {
+            width: 65%;
+            position: relative;
+            top: -23px;
+            h3 {
+                line-height: 80px;
+            }
+            button {
+                margin-top: 3.5%;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,104 @@
+// Header Backgrounds & Size Setup
+
+header.homeHeader {
+    background-image: url('../FunPlace-final-assets/home-header.jpg');
+    background-size: cover;
+    background-position: fixed;
+    width: 100%;
+    height: 80%;
+}
+
+header.blogHeader {
+    background-image: url('../FunPlace-final-assets/blog-header.jpg');
+    width: 100%;
+    height: 80vh;
+}
+
+header.contactHeader {
+    background-image: url('../FunPlace-final-assets/contact-header.jpg');
+    width: 100%;
+    height: 80vh;
+}
+
+h1.funPlaceHeading {
+    font-family: "walter turncoat";
+    font-size: 8vw;
+    color: $paleGrey;
+    padding-top: 33%;
+}
+
+h1.blogHeading,
+h1.getInTouchHeading {
+    font-family: "walter turncoat";
+    font-size: 121.5px;
+    color: $paleGrey;
+}
+
+.headerSpacing {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.headerMaterial {
+    display: flex;
+}
+
+
+// Header Content Styles
+.homeHeader{
+    .hamMenu {
+        display: none;
+        color: $paleGrey;
+        text-align: right;
+        font-size: 40px;
+    }
+    .headerMaterial {
+        justify-content: space-between;
+        position: relative;
+        .headingDiv {
+            width: 42%;
+            display: flex;
+            margin-top: 10%;
+            margin-left: 7%;
+        }
+        .headerPic {
+            width: 60%;
+            position: relative;
+            top:200px;
+            img {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+.blogHeader {
+    .headerMaterial {
+        margin-top: 80px;
+    }
+}
+
+header{
+    .hamMenu {
+        display: none;
+        color: $paleGrey;
+        text-align: right;
+        font-size: 40px;
+    }
+}
+
+// Media Query to hide navigation bar, and replace it with the hamburger menu
+@media(max-width:720px) {
+    header {
+        .wrapper {
+            .hamMenu {
+                display: block;
+            }
+            ul {
+                display: none;
+            }
+        }
+    }
+}

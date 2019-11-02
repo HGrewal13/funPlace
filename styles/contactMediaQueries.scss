@@ -1,0 +1,110 @@
+@media(max-width:1200px) {
+    .contact {
+        .wrapper {
+            flex-direction: column;
+            align-items: center;
+            width: 90%;
+            .contactInfo {
+                width: 60%;
+                text-align: center;
+                order: 2;
+                padding: 2%;
+                .icons {
+                    font-size: 30px;
+                }
+                .email,
+                .contactDetails {
+                    p {
+                        font-size: 20px;
+                    }
+                }
+                .email {
+                    padding: 2% 0 0;
+                }
+                .contactDetails {
+                    padding-bottom: 2%;
+                }
+            }
+            .contactForm {
+                width: 90%;
+                top: 0;
+                margin: 5% 0;
+            }
+        }
+    }
+}
+
+@media(max-width:1000px) {
+    h1.getInTouchHeading {
+        font-size: 11vw;
+    }
+}
+
+@media(max-width:875px) {
+    .contactUserInput {
+        flex-direction: column;
+        input {
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width:750px) {
+    
+    .contact {
+        .wrapper {
+            width: 100%;
+            .contactForm {
+                width: 100%;
+                box-shadow: none;
+            }
+            .contactInfo {
+                width: 85%;
+                .icons {
+                    font-size: 25px;
+                }
+                .email,
+                .contactDetails {
+                    p {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:720px) {
+    .contactHeader {
+        .headerMaterial {
+            padding-top: 20%;
+            h1 {
+                font-size: 90px;
+            }
+        }
+    }
+}
+
+@media(max-width:475px) {
+    .contact {
+        .wrapper {
+            .contactInfo {
+                .icons {
+                    font-size: 22px;
+                }
+                .email {
+                    padding: 2% 0 0;
+                    p {
+                        font-size: 16px;
+                    }
+                }
+                .contactDetails {
+                    p {
+                        font-size: 16px;
+                        padding-bottom: 2%;
+                    }
+                }
+            }
+        }
+    }
+}

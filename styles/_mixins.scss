@@ -1,0 +1,5 @@
+@mixin headerBackground($backgroundImage) {
+    url ('$backgroundImage');
+    width: 100%;
+    height: 80vh;
+}
